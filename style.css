@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 200vh;
+}
+
+.img1 {
+    height: 100vh;
+    background-image: url(./images/new1.jpg);
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+    letter-spacing: 8px;
+}
+
+.border {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section1 {
+    display: block;
+    background-color: rgb(121, 14, 14);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 80px;
+    line-height: 1.8rem;
+}
+
+.img2 {
+    height: 100vh;
+    background-image: url(./images/pexel22.jpeg);
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.section2 {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 50px 80px;
+    line-height: 1.8rem;
+}
+
+.img3 {
+    height: 100vh;
+    background-image: url(./images/pexels33.jpeg);
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img4 {
+    background-image: url(./images/new1.jpg);
+    height: 100vh;
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    background-color: #a84242;
+    height: 22vh;
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(30, 28, 28)
+}
+
+.contactlink {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactlink  a:hover {
+    transform: translateY(6px);
+    transition: all .2s ease;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin-right : 40px;
+    display: inline;
+    padding-top: 50px;
+
+}
